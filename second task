@@ -1,0 +1,6 @@
+def get(filename):
+   name, extension = filename.split(".")
+    return extension
+filename = input("Enter the filename: ")
+extension = get(filename)
+print("The extension of the file {filename} is: {extension}")
